@@ -48,16 +48,19 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'rails_layout' #https://github.com/RailsApps/rails_layout
+  gem 'rails_layout' # https://github.com/RailsApps/rails_layout
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-
-gem 'devise' #https://github.com/plataformatec/devise/wiki/How-to-Setup-Multiple-Devise-User-Models
+gem 'bootstrap', '~> 4.0.0.beta2.1' # https://github.com/twbs/bootstrap-rubygem
+gem 'devise' # https://github.com/plataformatec/devise/wiki/How-to-Setup-Multiple-Devise-User-Models
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'jquery-rails'
 gem 'pry-rails', group: :development
 gem 'simple_form'
-gem 'bootstrap', '~> 4.0.0.beta2.1' #https://github.com/twbs/bootstrap-rubygem
-gem 'jquery-rails'
+
+# implementatino for graphql
+gem 'graphql'
+gem 'graphiql-rails', group: :development
