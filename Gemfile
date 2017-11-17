@@ -64,3 +64,4 @@ gem 'simple_form'
 # implementatino for graphql
 gem 'graphql'
 gem 'graphiql-rails', group: :development
+gem 'faker'
