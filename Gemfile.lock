@@ -76,6 +76,8 @@ GEM
       railties (>= 4.1.0, < 5.2)
       responders
       warden (~> 1.2.3)
+    doorkeeper (4.2.6)
+      railties (>= 4.2)
     dotenv (2.2.1)
     dotenv-rails (2.2.1)
       dotenv (= 2.2.1)
@@ -223,6 +225,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   devise
+  doorkeeper
   dotenv-rails
   faker
   graphiql-rails
